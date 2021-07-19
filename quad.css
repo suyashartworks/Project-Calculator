@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+#quad{
+    margin: auto;
+    
+}
+
+#text{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+#a{
+    width: 10%;
+    margin: 12px;
+}
+
+#b{
+    width: 10%;
+    margin: 12px;
+}
+
+#c{
+    width: 10%;
+    margin: 12px;
+}
+
+p{
+    color : white;
+}

@@ -1,0 +1,38 @@
+#cal{
+    width : 25%;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+
+body{
+    background-color: rgb(70, 70, 70);
+}
+#dis{
+    background-color : #1B262C;
+    border : black;
+    height : 48px;
+    font-size : 25px;
+    color: white;
+    padding: 4px;
+}
+
+button{
+    width : 25%;
+    height : 36px;
+    font-size : 18px;
+    margin : 0px; 
+    float : left;
+    color: white;
+    background-color: #3282B8;
+
+    
+}
+
+#btn0{
+    width : 50%;
+}
+
+#btneql{
+    background-color: #0F4C75;
+}
