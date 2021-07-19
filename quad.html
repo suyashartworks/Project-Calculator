@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="quad.css">
+
+    <title>Project Calculator</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Calculator</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Basic Calculator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="quad.html">Quadratic Roots</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <!-- Basic Calculator 
+    <div id="cal">
+        <div id="dis">
+
+        </div>
+        <div id="btns">
+            <button id="btnac" onclick="clr()">C</button>
+            <button id="btnper" onclick="operation('%')">%</button>
+            <button id="btndiv" onclick="operation('/')">/</button>
+            <button id="btnbac" onclick="back()">&lt;-</button>
+            <button id="btn7" onclick="store('7')">7</button>
+            <button id="btn8" onclick="store('8')">8</button>
+            <button id="btn9" onclick="store('9')">9 </button>
+            <button id="btnmul" onclick="operation('*')">*</button>
+            <button id="btn4" onclick="store('4')">4</button>
+            <button id="btn5" onclick="store('5')">5</button>
+            <button id="btn6" onclick="store('6')">6</button>
+            <button id="btnsub" onclick="operation('-')">-</button>
+            <button id="btn1" onclick="store('1')">1</button>
+            <button id="btn2" onclick="store('2')">2</button>
+            <button id="btn3" onclick="store('3')">3</button>
+            <button id="btnsum" onclick="operation('+')">+</button>
+            <button id="btn0" onclick="store('0')">0</button>
+            <button id="btndot" onclick="store('.')">.</button>
+            <button id="btneql" onclick="answer()">=</button>
+        </div>
+    </div> -->
+
+        <div id="quad">
+            <div id="text">A quadratic equation looks like this : ax^2 + bx + c = 0</div>
+            <div id="inputs">
+               <form id="fr1">
+                   <label for="a">a : </label>
+                   <input type="text" id="a" name="a">
+                   <label for="b">b : </label>
+                   <input type="text" id="b" name="b">
+                   <label for="c">c : </label>
+                   <input type="text" id="c" name="c">
+                
+                   <input type="button" onclick="subval()" value="Submit">
+               </form>
+            </div>
+            <div id="out">
+                <p id="ans1">1st root</p>
+                <p id="ans2">2nd root</p>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="quad.js"></script>
+  </body>
+</html>
